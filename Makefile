@@ -180,7 +180,8 @@ am__define_uniq_tagged_files = \
     if test -f "$$i"; then echo $$i; else echo $(srcdir)/$$i; fi; \
   done | $(am__uniquify_input)`
 DIST_SUBDIRS = $(SUBDIRS)
-am__DIST_COMMON = $(srcdir)/Makefile.in README.md install-sh missing
+am__DIST_COMMON = $(srcdir)/Makefile.in COPYING README.md install-sh \
+	missing
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 distdir = $(PACKAGE)-$(VERSION)
 top_distdir = $(distdir)
@@ -235,7 +236,7 @@ AWK = gawk
 CSCOPE = cscope
 CTAGS = ctags
 CYGPATH_W = echo
-DEFS = -DPACKAGE_NAME=\"notification_tone\" -DPACKAGE_TARNAME=\"notification_tone\" -DPACKAGE_VERSION=\"1.0.0\" -DPACKAGE_STRING=\"notification_tone\ 1.0.0\" -DPACKAGE_BUGREPORT=\"test@tester.com\" -DPACKAGE_URL=\"\" -DPACKAGE=\"notification_tone\" -DVERSION=\"1.0.0\"
+DEFS = -DPACKAGE_NAME=\"notification_tone\" -DPACKAGE_TARNAME=\"notification_tone\" -DPACKAGE_VERSION=\"1.0.0\" -DPACKAGE_STRING=\"notification_tone\ 1.0.0\" -DPACKAGE_BUGREPORT=\"srivathsansudarsanan@outlook.com\" -DPACKAGE_URL=\"\" -DPACKAGE=\"notification_tone\" -DVERSION=\"1.0.0\"
 ECHO_C = 
 ECHO_N = -n
 ECHO_T = 
@@ -251,7 +252,7 @@ LTLIBOBJS =
 MAKEINFO = ${SHELL} '/home/srivathsans/Development/bash/notification_tone/missing' makeinfo
 MKDIR_P = /usr/bin/mkdir -p
 PACKAGE = notification_tone
-PACKAGE_BUGREPORT = test@tester.com
+PACKAGE_BUGREPORT = srivathsansudarsanan@outlook.com
 PACKAGE_NAME = notification_tone
 PACKAGE_STRING = notification_tone 1.0.0
 PACKAGE_TARNAME = notification_tone
